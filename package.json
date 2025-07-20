@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@lmstudio/sdk": "^0.4.7",
+    "openai": "^4.82.0"
+  },
+  "name": "elecdeep",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^34.0.2",
+    "electron-builder": "^25.1.8"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.chatbot.deepseek",
+    "win": {
+      "target": "portable"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
